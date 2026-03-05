@@ -51,7 +51,7 @@ Opcion 2:
 
 2-Compute monthly revenue (Status = 'Completed') and the MoM % change per Customer Location.
 
-3-Create report per month with the following information:
+3-Create a report per month with the following information:
 - monthly_revenue = category revenues for that month.
 - month_total_revenue = total revenue of the month (all categories).
 - share_of_month = percentage that the category represents of the total for the month.
@@ -72,22 +72,34 @@ Opcion 2:
 **Tools used:** Excel, MySQL, and Power BI.
 **Steps:**  
 
-- Step 1: Review dataset in the Excel file.
+- Step 1: Review the dataset in the Excel file.
 - Step 2: Cleaning the data.
-- Step 3: Connect dataset to MySQL Workbench.
-- Step 4: Define schema, tables, and columns names.
+- Step 3: Connect the dataset to MySQL Workbench.
+- Step 4: Define schema, tables, and columns's names.
 - Step 5: Define primary key and foreign keys.
 - Step 6: Data Modeling: Assign data type to each table and column (int, varchar(), text, etc.)
 - Step 7: Work on the database on MySQL to create a Views with the main information
   
 View 1 — Revenue per Location. 
 
+-Here you can reference the script SQL:  
+
+[Ver script de extracción SQL](SQL_Data_Extraction.sql)
+
 View 2 — Revenue per Category. 
+
+-Here you can reference the script SQL:  
+
+[Ver script de extracción SQL](SQL_Data_Extraction.sql)
 
 View 3 — Revenue per Month. 
 
+-Here you can reference the script SQL:  
+
+[Ver script de extracción SQL](SQL_Data_Extraction.sql)
+
 - Step 8: Connect the MySQL View Power BI.
-- Step 9: Create interactive dashboard on Power BI with graphs and main metrics.
+- Step 9: Create an interactive dashboard on Power BI with graphs and main metrics.
 - Step 10: Interpretation of results: exploration and visualization.
 
 ## 📊 Key Results
@@ -97,12 +109,13 @@ View 3 — Revenue per Month.
 3. Question 3: Refer to Q3 Monthly Product Category KPIs.
 
 -**On Power BI:** 
-1. Visualization in Power BI for Revenue per Customer Location.
+1. Refer to the visualization in Power BI for Revenue per Customer Location.
 
-2. Visualization in Power BI for Revenue per Product Category.
+2. Refer to the visualization in Power BI for Revenue per Product Category.
 
-3. Visualization in Power BI for Revenue per Month.
+3. Refer to the visualization in Power BI for Revenue per Month.
 
+   
 **Main Key Performance Indicators (KPIs):**
 
 - Number of Orders.
@@ -114,21 +127,20 @@ View 3 — Revenue per Month.
 - Running_ytd_revenue.
 
 ## 📈 Visualization
--Here you can reference the script SQL:  
-
-[Ver script de extracción SQL](SQL_Data_Extraction.sql)
 
 -Here you can reference the dashboards:  
 
-Opcion 1
-![Dashboard 1](https://github.com/OscarGomez-Data/Project-Data-Analysis-Classic-Models-Power-BI-Dashboard/blob/main/Sales%20Overview%201.png) 
-![Dashboard 2](https://github.com/OscarGomez-Data/Project-Data-Analysis-Classic-Models-Power-BI-Dashboard/blob/main/Sales%20Overview%202.png)  
+1. Visualization in Power BI for Revenue per Customer Location.
+   
+![Dashboard 1](https://github.com/OscarGomez-Data/Sales-Dataset-2025-Power-BI-Dashboard/blob/main/Dashboard_Revenue_per_Customer_Location.png)
 
-Opción 2
+2. Visualization in Power BI for Revenue per Product Category.
+   
+![Dashboard 2](https://github.com/OscarGomez-Data/Sales-Dataset-2025-Power-BI-Dashboard/blob/main/Dashboard_Revenue_per_Product_Category.png)  
 
-[Dashboard 1](Sales%20Overview%201.png)  
-
-[Dashboard 2](Sales%20Overview%202.png)  
+3. Visualization in Power BI for Revenue per Month.
+   
+![Dashboard 2](https://github.com/OscarGomez-Data/Sales-Dataset-2025-Power-BI-Dashboard/blob/main/Dashboard_Revenue_per_Month.png)  
 
 
 ## ✅ Conclusions and Recommendations
