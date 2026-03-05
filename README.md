@@ -5,7 +5,7 @@ This project is about modeling a dataset with Sales’s information through MySQ
 -Main objective: Analyze information about sales from 2025 and review KPIs.
 
 ## 📂 Dataset
-** Sales Dataset Description **:
+**Sales Dataset Description:**
 - This dataset contains 250 records of sales transactions, including details about the customers, locations, sales, payment methods, and order statuses.
 
 **Columns Description:**
@@ -34,14 +34,15 @@ This project is about modeling a dataset with Sales’s information through MySQ
 
 This dataset can be used for sales analysis, customer behavior insights, and revenue trends visualization. 
 
-- **Source:** www.kaggle.com (public).
-- **Processing:** Modeling in MySQL, connect data MySQL to Power BI, and create Visual Dashboard for Analysis. 
 
-![ Access dataset]( https://www.kaggle.com/datasets/zahidmughal2343/amazon-sales-2025?resource=download)  
+## Data Source
 
+The dataset used in this project is publicly available on Kaggle:
 
-Opcion 2:
--**Access dataset:** [Download dataset](Sales+Data+ClassicModels.csv)  
+- [Amazon Sales Dataset 2025](https://www.kaggle.com/datasets/zahidmughal2343/amazon-sales-2025)
+
+This dataset was used to simulate e-commerce sales data for building the SQL queries and Power BI dashboards included in this repository.
+
 
 ##❓Main Questions
 
@@ -69,8 +70,9 @@ Opcion 2:
 
 ## 🛠️ Methodology
 
-**Tools used:** Excel, MySQL, and Power BI.
-**Steps:**  
+- **Tools used:** Excel, MySQL, and Power BI.
+- **Processing:** Modeling in MySQL, connect data MySQL to Power BI, and create Visual Dashboard for Analysis.
+- **Steps:**  
 
 - Step 1: Review the dataset in the Excel file.
 - Step 2: Cleaning the data.
