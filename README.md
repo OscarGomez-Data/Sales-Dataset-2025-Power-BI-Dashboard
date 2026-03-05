@@ -84,19 +84,20 @@ View 1 — Revenue per Location.
 
 -Here you can reference the script SQL:  
 
-[Ver script de extracción SQL](SQL_Data_Extraction.sql)
+- [View revenue per location](View%20Revenue%20per%20Location.sql)
+
 
 View 2 — Revenue per Category. 
 
 -Here you can reference the script SQL:  
 
-[Ver script de extracción SQL](SQL_Data_Extraction.sql)
+- [View revenue per category](View%20Revenue%20per%20Category.sql)
 
 View 3 — Revenue per Month. 
 
 -Here you can reference the script SQL:  
 
-[Ver script de extracción SQL](SQL_Data_Extraction.sql)
+- [View revenue per month](View%20Revenue%20per%20Month.sql)
 
 - Step 8: Connect the MySQL View Power BI.
 - Step 9: Create an interactive dashboard on Power BI with graphs and main metrics.
@@ -105,8 +106,16 @@ View 3 — Revenue per Month.
 ## 📊 Key Results
 -**In MySQL and Excel**:
 1. Question 1: Refer to SQL archive Q1 Trend Revenue and Top Customers.
-2. Question 2: Refer to Q2 MoM% Change per Customer Location.
-3. Question 3: Refer to Q3 Monthly Product Category KPIs.
+
+- [Q1 Trend Revenue and Top Customers](Q1%20Trend%20Revenue%20and%20Top%20Customers.sql)
+   
+2. Question 2: Refer to SQL archive Q2 MoM% Change per Customer Location.
+
+- [Q2 MoM% Change per Customer](Q2%20MoM%25%20Change%20per%20Customer%20Location.sql)
+   
+3. Question 3: Refer to SQL archive Q3 Monthly Product Category KPIs.
+
+- [Q3 Monthly Product Category KPIs](Q3%20Monthly%20Product%20Category%20KPIs.sql)  
 
 -**On Power BI:** 
 1. Refer to the visualization in Power BI for Revenue per Customer Location.
